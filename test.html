@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML CSS Website</title>
@@ -16,33 +15,37 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
 </head>
-<style>
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
- 
-  padding: 10px;
-}
-
-.grid-container > div {
-  
-  text-align: Left;
-  padding: 20px 0;
-  font-size: 30px;
-}
-</style>
-
 <body style="background-color:#131313;">
-<div class="navbar__toggle" id="mobile-menu">
-</div>
+
 
 
 <div class="grid-container">
+  <nav class="navbar">
+      <div class="navbar__container">
+        
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Coming Soon</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links">Coming Soon</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Coming Soon</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav></div>
+
+
   
-  <div class="item1">
 <div class="main">
       <div class="main__container">
         <div class="main__content">
@@ -54,25 +57,20 @@
       </div>
 
 
-</div>
-
+<div class="main__content">
 <div class="main__container">
-        <div class="main__content">
 <div class="item2">
           <h1>NASA Astronomy Picture Of The Day</h1>
-	<h3 id="title"></h3>
+	<h3 id="title"></h2>
 	<h3>Date: <span id="date"></span></h3>
-	<img id="pic" src="" alt="NASA Picture Of The Day" width="50%">
-	
+	<img id="pic" src="" alt="NASA Picture Of The Day" width="30%">
 	</div>
 </div>
-</div>
 
-  <div class="item3">3</div>  
-  <div class="item4">4</div>
-</div>
 
+        
 <script src="app.js"></script>
-
 </body>
 </html>
+
+
